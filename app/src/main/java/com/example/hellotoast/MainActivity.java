@@ -18,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
     private int mCount = 0;
     //TextView
     private TextView mShowCount;
+
     @Override
+    //Activities have the ability,to restore themselves to a previous state using the data stored in this bundle
     protected void onCreate(Bundle savedInstanceState) {
         //super keyword is used to refer parent class object
         super.onCreate(savedInstanceState);
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         //getting show count by id i.e.textview
         mShowCount = (TextView) findViewById(R.id.show_count);
     }
+
     /**
       * when the TOAST button is clicked.
       *@param view The view that triggered this onClick handler.
@@ -37,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         //show the toast
         toast.show();
     }
+
     /**
       * when the COUNT button is clicked,Increments the number in the TextView
       *@param view The view that triggered this onClick handler.
