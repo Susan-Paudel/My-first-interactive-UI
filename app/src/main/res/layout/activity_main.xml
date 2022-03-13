@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--ConstraintLayout-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <!--Button Toast-->
     <Button
         android:id="@+id/button_toast"
         android:layout_width="wrap_content"
@@ -18,7 +19,8 @@
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+        <!--toast button end-->
+    <!--Count Button-->
     <Button
         android:id="@+id/button_count"
         android:layout_width="wrap_content"
@@ -31,7 +33,8 @@
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_toast" />
-
+    <!--Count Button end-->
+    <!--TextView-->
     <TextView
         android:id="@+id/show_count"
         android:layout_width="wrap_content"
@@ -46,5 +49,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/button_count"
         app:layout_constraintTop_toTopOf="parent" />
+    <!--End TextView-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+<!--End Constraint Layout-->
