@@ -32,4 +32,7 @@ when the toast button is pressed , a toast message will display and when we pres
 ### Record Of Application
 ![Record of App](ScreenshotAndRecord/Record.gif)
 
-**The above gif file show the working process of the application**
+**The video above shows the UI of the final app created for the Coding Challenge section of lab 1. The UI
+consists of three different views; 2 button views and 1 text view. The 'Toast' button is used to
+display the toast message while the 'Count' button is used to increase the count value when pressed.
+Similarly, the text view at the center is used to display the current count value.**
